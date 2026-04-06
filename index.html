@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0f172a">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="styles.css">
+<title>NEWS System</title>
+</head>
+<body>
+<div class="app-shell">
+<header class="hero">
+<h1>🏥 NEWS System</h1>
+</header>
+
+<section class="card">
+<input id="hn" placeholder="HN">
+<input id="location" placeholder="Location">
+
+<select id="score">
+<option value="">เลือกคะแนน</option>
+<option value="1">1</option>
+<option value="3">3</option>
+<option value="5">5</option>
+<option value="7">7</option>
+<option value="10">10</option>
+</select>
+
+<button onclick="save()">💾 บันทึก</button>
+</section>
+
+<section class="card">
+<input id="search" placeholder="🔍 ค้นหา HN">
+</section>
+
+<section class="card">
+<table>
+<thead>
+<tr><th>HN</th><th>Score</th><th>Level</th><th>Time</th></tr>
+</thead>
+<tbody id="table"></tbody>
+</table>
+</section>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
