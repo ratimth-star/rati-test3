@@ -6,3 +6,4 @@ input,select,button{width:100%;margin:5px 0;padding:10px;border-radius:8px;borde
 button{background:#3b82f6;color:white}
 table{width:100%}
 td,th{padding:6px}
+.hidden{display:none}
